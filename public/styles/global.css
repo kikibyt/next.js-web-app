@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and family */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Global styles for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Global styles for headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+/* Global styles for images */
+img {
+  max-width: 100%;
+}
+
+/* Add any other global styles needed for your application */
